@@ -8,10 +8,9 @@
  */
 package ryan.jvmmonitor;
 
-import ryan.jvmmonitor.MetadataTO;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import java.lang.management.MemoryUsage;
 import java.util.Map;
-import org.codehaus.jackson.map.ObjectMapper;
 
 /**
  *
